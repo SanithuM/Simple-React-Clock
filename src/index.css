@@ -1,0 +1,28 @@
+body{
+  background-image: url('https://www.hdwallpapers.in/download/beautiful_white_cloudy_sky_background_hd_sky-HD.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock {
+  color: white;
+  font-size: 6rem;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.clock-container{
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding: 10px 0;
+}
